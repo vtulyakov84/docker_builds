@@ -1,0 +1,22 @@
+.placeholder {
+    padding: 50px;
+    font-family: Arial, sans-serif;
+}
+
+.placeholder h1 {
+    color: #ff6b6b;
+}
+
+.info {
+    color: #ff2b2b;
+    font-weight: bold;
+}
+
+.code {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+pre {
+    font-size: 12pt;
+}
