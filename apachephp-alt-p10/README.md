@@ -72,7 +72,7 @@ docker run -d -p 0.0.0.0:8080:80 alt-p10-web:1.0.0
 
 
 # Запуск контейнера с прикреплением внешнего каталога с php-скриптами
-docker run -d -p 0.0.0:8080:80 -v ./attach_web:/var/www/html alt-p10-web:1.0.0
+docker run -d -p 0.0.0:8080:80 -v ./scripts:/var/www/html alt-p10-web:1.0.0
 
 # Выяснить id/хеш-контейнера
 $ docker ps
